@@ -45,6 +45,13 @@ $cyan-colors: (
 // import bootstrap whole sass lib (incorporates all above redefined vars & values)
 @import "~bootstrap/scss/bootstrap";
 
+// globals
+@media screen and (min-width: 992px) {
+  main {
+    padding-left: 20rem;
+  }
+}
+
 //import custom components
 @import "./about";
 @import "./contact";

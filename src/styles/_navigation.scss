@@ -1,0 +1,25 @@
+.nav-link.active {
+  font-weight: bold;
+  color: $cyan-800 !important;
+}
+
+@media screen and (min-width: 992px) {
+  #mainNav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20rem;
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+}

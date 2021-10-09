@@ -1,7 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <Container fluid className="mx-auto">
+      About
+    </Container>
+  );
 };
 
 export default About;

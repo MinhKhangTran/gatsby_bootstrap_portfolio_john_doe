@@ -2,13 +2,15 @@ import { Link } from "gatsby";
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { FaBars } from "react-icons/fa";
+import avatar from "../images/hero/Avatar.svg";
 
 const Navigation = () => {
   return (
     <Navbar bg="info" id="mainNav" expand="lg">
-      <Container>
-        <Link className="navbar-brand fw-bold" to="/">
-          John Doe
+      <Container className="">
+        <Link className="navbar-brand" to="/">
+          <span className="d-lg-none fw-bold">John Doe</span>
+          <img className="d-none d-lg-flex mb-5" src={avatar} alt="avatar" />
         </Link>
         <Navbar.Toggle
           className="text-uppercase rounded d-flex align-items-center border border-primary d-block d-lg-none"
@@ -18,7 +20,7 @@ const Navigation = () => {
           <FaBars className="text-cyan-900 ms-2" />
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="flex-column">
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#experienes">Experiences</Nav.Link>
