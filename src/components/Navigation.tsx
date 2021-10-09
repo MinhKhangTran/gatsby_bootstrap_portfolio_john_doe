@@ -5,17 +5,17 @@ import { FaBars } from "react-icons/fa";
 
 const Navigation = () => {
   return (
-    <Navbar bg="light" id="mainNav" expand="lg">
+    <Navbar bg="info" id="mainNav" expand="lg">
       <Container>
-        <Link className="navbar-brand text-primary" to="/">
+        <Link className="navbar-brand fw-bold" to="/">
           John Doe
         </Link>
         <Navbar.Toggle
           className="text-uppercase rounded d-flex align-items-center border border-primary d-block d-lg-none"
           aria-controls="basic-navbar-nav"
         >
-          <span className="text-cyan-700">Menu</span>
-          <FaBars className="text-cyan-700 ms-2" />
+          <span className="text-cyan-900">Menu</span>
+          <FaBars className="text-cyan-900 ms-2" />
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
