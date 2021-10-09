@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "gatsby_bootstrap_portfolio",
+    title: "John Doe",
     description: "A static site made with gatsby and bootstrap ✨",
     keywords: "bootstrap, gatsby",
     author: "mkt",

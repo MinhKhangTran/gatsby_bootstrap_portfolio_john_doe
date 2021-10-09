@@ -46,3 +46,10 @@ $cyan-colors: (
 @import "~bootstrap/scss/bootstrap";
 
 //import custom components
+@import "./about";
+@import "./contact";
+@import "./education";
+@import "./experiences";
+@import "./navigation";
+@import "./projectModal";
+@import "./projects";
