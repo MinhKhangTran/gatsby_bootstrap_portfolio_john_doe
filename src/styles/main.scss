@@ -1,0 +1,48 @@
+// load custom font from google fonts
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@import "~bootstrap/scss/functions";
+// redefine variables not dependent on anything else
+
+// global variables
+$primary: #0dcaf0;
+
+// theme color variables
+
+// font family
+$font-family-base: "Nunito", sans-serif;
+
+// links
+
+// import variables and mixins files (so you can use them below)
+// any redefined vars above will be incorporated into the files (e.g. in maps)
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+//Get cyan color
+$cyan-colors: (
+  "cyan-100": $cyan-100,
+  "cyan-200": $cyan-200,
+  "cyan-300": $cyan-300,
+  "cyan-400": $cyan-400,
+  "cyan-500": $cyan-500,
+  "cyan-600": $cyan-600,
+  "cyan-700": $cyan-700,
+  "cyan-800": $cyan-800,
+  "cyan-900": $cyan-900,
+);
+//create cyan shapes
+@each $color, $value in $cyan-colors {
+  .bg-#{$color} {
+    background-color: $value;
+  }
+  .text-#{$color} {
+    color: $value;
+  }
+}
+
+// utility api - import utility file first
+// import bootstrap whole sass lib (incorporates all above redefined vars & values)
+@import "~bootstrap/scss/bootstrap";
+
+//import custom components
