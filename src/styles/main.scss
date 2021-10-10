@@ -12,7 +12,9 @@ $primary: #0dcaf0;
 // font family
 $font-family-base: "Nunito", sans-serif;
 
-// links
+// grid gutter
+$grid-gutter-width: 1.5rem;
+$container-padding-x: $grid-gutter-width * 1;
 
 // import variables and mixins files (so you can use them below)
 // any redefined vars above will be incorporated into the files (e.g. in maps)
@@ -62,5 +64,4 @@ $cyan-colors: (
 @import "./education";
 @import "./experiences";
 @import "./navigation";
-@import "./projectModal";
 @import "./projects";
