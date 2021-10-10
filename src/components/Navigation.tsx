@@ -6,7 +6,7 @@ import avatar from "../images/hero/Avatar.svg";
 
 const Navigation = () => {
   return (
-    <Navbar bg="info" id="mainNav" expand="lg">
+    <Navbar bg="primary" id="mainNav" expand="lg">
       <Container className="">
         <Link className="navbar-brand" to="/">
           <span className="d-lg-none fw-bold">John Doe</span>
@@ -23,7 +23,7 @@ const Navigation = () => {
           <Nav className="flex-column">
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#experienes">Experiences</Nav.Link>
+            <Nav.Link href="#experiences">Experiences</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>

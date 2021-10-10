@@ -1,0 +1,12 @@
+#contact {
+  border-bottom: solid 1px $cyan-200;
+  padding-bottom: 4rem;
+}
+@media screen and (min-width: 992px) {
+  #contact {
+    min-height: 100vh;
+    place-items: center;
+    padding-bottom: 0rem;
+    display: grid;
+  }
+}
