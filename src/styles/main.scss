@@ -51,6 +51,10 @@ $cyan-colors: (
     padding-left: 20rem;
   }
 }
+.divider {
+  background-color: $cyan-600;
+  margin: 5rem 0 2rem 0;
+}
 
 //import custom components
 @import "./about";

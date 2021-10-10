@@ -1,0 +1,47 @@
+#about {
+  border-bottom: solid 1px $cyan-200;
+  padding-bottom: 4rem;
+  .about_heading {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+  }
+}
+
+.about_socials a {
+  background-color: $cyan-800;
+  color: $cyan-100;
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  #about {
+    min-height: 100vh;
+    place-items: center;
+
+    display: grid;
+
+    .about_heading {
+      font-size: 6rem;
+      letter-spacing: 3px;
+    }
+    .about_info {
+      font-size: 1.15rem;
+    }
+  }
+
+  .about_socials a {
+    width: 60px;
+    height: 60px;
+    margin-right: 1.25rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+}
