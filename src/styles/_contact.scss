@@ -2,6 +2,14 @@
   border-bottom: solid 1px $cyan-200;
   padding-bottom: 4rem;
 }
+input,
+textarea {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
 @media screen and (min-width: 992px) {
   #contact {
     min-height: 100vh;
