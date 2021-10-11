@@ -2,11 +2,21 @@
   border-bottom: solid 1px $cyan-200;
   padding-bottom: 4rem;
 }
+.exp_company_name {
+  letter-spacing: 4px;
+}
+.exp_heading_head {
+  font-weight: 600;
+}
+
 @media screen and (min-width: 992px) {
   #experiences {
     min-height: 100vh;
     place-items: center;
     padding-bottom: 0rem;
     display: grid;
+  }
+  .exp_company_desc {
+    width: 80%;
   }
 }
