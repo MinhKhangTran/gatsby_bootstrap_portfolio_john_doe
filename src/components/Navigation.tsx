@@ -6,7 +6,7 @@ import avatar from "../images/hero/Avatar.svg";
 
 const Navigation = () => {
   return (
-    <Navbar bg="primary" id="mainNav" expand="lg">
+    <Navbar bg="primary" id="mainNav" collapseOnSelect fixed="top" expand="lg">
       <Container className="">
         <Link className="navbar-brand" to="/">
           <span className="d-lg-none fw-bold">John Doe</span>

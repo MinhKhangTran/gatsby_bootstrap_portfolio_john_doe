@@ -1,6 +1,7 @@
 #about {
   border-bottom: solid 1px $cyan-200;
   padding-bottom: 4rem;
+  padding-top: 3.5rem;
   .about_heading {
     font-size: 3rem;
     font-weight: bold;
@@ -23,7 +24,7 @@
   #about {
     min-height: 100vh;
     place-items: center;
-
+    padding: 0;
     display: grid;
 
     .about_heading {
